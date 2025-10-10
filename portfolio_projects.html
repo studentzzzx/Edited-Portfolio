@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        #projects {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .project p {
+            color: #555;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 10px;
+            }
+            #projects {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="projects">
+        <h2>C# and SQL Projects</h2>
+        <div class="project">
+            <h3>Interface Polymorphism App</h3>
+            <p>Demonstrates interfaces and polymorphism in C#. Implements <code>IQuittable</code> and uses polymorphism to call <code>Quit()</code>.</p>
+            <a href="https://github.com/yourusername/your-repo-name" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Math Console App</h3>
+            <p>Showcases method calls with positional and named arguments in C#. Performs simple math operations.</p>
+            <a href="https://github.com/yourusername/your-repo-name" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>MoviesDB Assignment</h3>
+            <p>SQL project creating a Movies database with Directors and Actors tables, including foreign keys and JOIN queries.</p>
+            <a href="https://github.com/yourusername/your-repo-name" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+</body>
+</html>
